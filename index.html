@@ -6,9 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="style.css">
+
+        <!-- -------getting poppins font------ -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     </head>
     <body>
-
+<!--------------------------------Header------------------------------->
         <div id="header">
             <div class="container">
                 <nav>
@@ -29,20 +35,77 @@
             </div>
         </div>
 
-        <!-- -------about------ -->
+<!--------------------------------about------------------------------->
         <div id="about">
             <div class="container">
                 <div class="row">
+
                     <div class="about-col-1">
                         <img src="images/IMG_1255.jpeg">
                     </div>
-                    <div class="about-col-2">
-                        <h1>About Me</h1>
-                    </div>
-                </div>
 
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Soy un estudiante de China. Me gusta mucha...
+                            我真的不知道我要干嘛。我也不知道我在干嘛。
+                            でも、本当にありがとう Here's a diazepam, we can each take half of; 
+                            or, do it like no one else, however the night goes
+                            Do you want to be a sweet potato? We could be sweet potatoes 
+                            together. We will snuggle, sleep through the whole winter and flower
+                            in the spring. </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('tab1')">Skills</p>
+                            <p class="tab-links" onclick="opentab('tab2')">Experience</p>
+                            <p class="tab-links" onclick="opentab('tab3')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="tab1">
+                            <ul>
+                                <li><span>Computing</span><br>Computing Talented Program</li>
+                                <li><span>Engineering</span><br>Robotics</li>
+                                <li><span>AI</span><br>Brainhack 7th place</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="tab2">
+                            <ul>
+                                <li><span>Tab2</span><br>Computing Talented Program</li>
+                                <li><span>Engineering</span><br>Robotics</li>
+                                <li><span>AI</span><br>Brainhack 7th place</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="tab3">
+                            <ul>
+                                <li><span>Tab3</span><br>Computing Talented Program</li>
+                                <li><span>Engineering</span><br>Robotics</li>
+                                <li><span>AI</span><br>Brainhack 7th place</li>
+                            </ul>
+                        </div>
+                    </div>          
+                </div>
             </div>
         </div>
+
+<!--------------------------------Services------------------------------->
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links")
+            var tabcontents = document.getElementsByClassName("tab-contents")
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
 
     </body>
 </html>
