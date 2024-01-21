@@ -18,7 +18,7 @@
         <div id="header">
             <div class="container">
                 <nav>
-                    <img src="images/logo.png" class="logo">
+                    <div><p>Page designed and built by Youyou, hosted by Github Pages</p></div>
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
@@ -46,41 +46,42 @@
 
                     <div class="about-col-2">
                         <h1 class="sub-title">About Me</h1>
-                        <p>Soy un estudiante de China. Me gusta mucha...
-                            我真的不知道我要干嘛。我也不知道我在干嘛。
+                        <p>我真的不知道我要干嘛。我也不知道我在干嘛。
                             でも、本当にありがとう Here's a diazepam, we can each take half of; 
-                            or, do it like no one else, however the night goes
                             Do you want to be a sweet potato? We could be sweet potatoes 
                             together. We will snuggle, sleep through the whole winter and flower
                             in the spring. </p>
 
                         <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('tab1')">Skills</p>
-                            <p class="tab-links" onclick="opentab('tab2')">Experience</p>
+                            <p class="tab-links active-link" onclick="opentab('tab1')">Awards & Achievements</p>
+                            <p class="tab-links" onclick="opentab('tab2')">Skills</p>
                             <p class="tab-links" onclick="opentab('tab3')">Education</p>
                         </div>
 
-                        <div class="tab-contents active-tab" id="tab1">
+                        <div class="tab-contents active-tab" id="tab1"> <!--- A&A -->
                             <ul>
-                                <li><span>Computing</span><br>Computing Talented Program</li>
-                                <li><span>Engineering</span><br>Robotics</li>
-                                <li><span>AI</span><br>Brainhack 7th place</li>
+                                <li><span>Academic | Singapore Ministry of Education (MOE)</span><br>MOE PRC Scholar</li>
+                                <li><span>Research | Nanyang Technological University (NTU)</span><br>Former NRP Student Researcher</li>
+                                <li><span>Engineering | Temasek Inc., Ecosperity</span><br>Sustain-A-City 1st Runner-Up </li>
+                                <li><span>Engineering & AI | Defence Science and Technology Agency (DSTA)</span><br>Brainhack TIL 7th Place</li>
+                                <li><span>Leadership | Hwa Chong Institution (HCI)</span><br>Artemis Faculty Activity IC, 22S6D CT-Rep (class president)<br>
+                                Project Apricot 22/23 Core Team Member</li>
                             </ul>
                         </div>
 
-                        <div class="tab-contents" id="tab2">
+                        <div class="tab-contents" id="tab2"> <!--- Skills -->
                             <ul>
-                                <li><span>Tab2</span><br>Computing Talented Program</li>
-                                <li><span>Engineering</span><br>Robotics</li>
-                                <li><span>AI</span><br>Brainhack 7th place</li>
+                                <li><span>Organisation and management</span><br>School and organisational level, academic and non-academic activities</li>
+                                <li><span>Engineering</span><br>Robotics and iOS software engineering</li>
+                                <li><span>AI</span><br>AI model (CV, NLP, etc.) training and deployment</li>
                             </ul>
                         </div>
 
-                        <div class="tab-contents" id="tab3">
+                        <div class="tab-contents" id="tab3"> <!--- Education -->
                             <ul>
-                                <li><span>Tab3</span><br>Computing Talented Program</li>
-                                <li><span>Engineering</span><br>Robotics</li>
-                                <li><span>AI</span><br>Brainhack 7th place</li>
+                                <li><span>Year 11-12</span><br>Hwa Chong Institution (Singapore) </li>
+                                <li><span>Year 9-10</span><br>Nanyang Girls' High School (Singapore)</li>
+                                <li><span>Year 7-9</span><br>Ningbo Foreign Language School (China)</li>
                             </ul>
                         </div>
                     </div>          
@@ -90,6 +91,13 @@
 
 <!--------------------------------Services------------------------------->
 
+        <div id="projects">
+            <div class="container">
+                <h1>My Projects</h1>
+            </div>
+        </div>
+
+<!--------------------------Java Script---------------------------------->
         <script>
             var tablinks = document.getElementsByClassName("tab-links")
             var tabcontents = document.getElementsByClassName("tab-contents")
