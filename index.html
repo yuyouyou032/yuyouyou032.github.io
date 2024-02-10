@@ -17,12 +17,14 @@
         <div id="header">
             <div class="container">
                 <nav>
-                    <div><p>Page designed and built by Youyou, hosted by Github Pages</p></div>
-                    <ul>
+                    <div><p>Page designed??? and built by Youyou, hosted by Github Pages</p></div>
+                    <ul id="sidemenu">
                         <li><a href="#header">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#portfolio">Works</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
                     </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
                 </nav>
 
                 <div class="header-text">
@@ -205,6 +207,18 @@
         </script>
 
         <script src="https://kit.fontawesome.com/aeb1f3bbc3.js" crossorigin="anonymous"></script>
+
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+            function closemenu(){
+                sidemeu.style.right = "-200px";
+            }
+
+        </script>
 
     </body>
 </html>
