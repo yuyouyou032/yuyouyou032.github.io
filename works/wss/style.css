@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #1d1e22;
+    color: #d4d4dc;
+}
+
+/* ------------ NAV ---------------- */
+nav{
+    padding-top: 20px;
+    padding-bottom: 5%;
+    padding-left: 130px;
+    padding-right: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 19px;
+
+}
+nav a{
+    color: #4cb69f;
+    text-decoration: none;
+}
+
+/* --------------Slides and brief description -------------- */
+
+#slides{
+    padding: 40px 130px;
+    color: #d4d4dc;
+}
+
+.row{
+    /* padding-left: 60px;
+    padding-right: 60px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.slides-col-1{
+    flex-basis: 25%;
+}
+
+.slides-col-2{
+    flex-basis: 70%;
+}
+
+.slides-col-2 embed{
+    height: 90%;
+}
+
+.slides-col-1 p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* ------------------- Comments ---------------------- */
+
+#comments{
+    padding: 80px 130px;
+    color: #d4d4dc;
+}
