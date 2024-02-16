@@ -11,10 +11,7 @@ body{
 
 /* ------------ NAV ---------------- */
 nav{
-    padding-top: 20px;
-    padding-bottom: 5%;
-    padding-left: 130px;
-    padding-right: 130px;
+    padding: 10px 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +27,7 @@ nav a{
 /* --------------Slides and brief description -------------- */
 
 #slides{
-    padding: 40px 130px;
+    padding: 40px 10%;
     color: #d4d4dc;
 }
 
@@ -43,11 +40,12 @@ nav a{
 }
 
 .slides-col-1{
-    flex-basis: 25%;
+    flex-basis: 35%;
 }
 
 .slides-col-2{
-    flex-basis: 70%;
+    flex-basis: 60%;
+    padding: 5% 0;
 }
 
 .slides-col-2 embed{

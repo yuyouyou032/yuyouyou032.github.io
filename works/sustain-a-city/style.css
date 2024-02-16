@@ -11,10 +11,7 @@ body{
 
 /* ------------ NAV ---------------- */
 nav{
-    padding-top: 20px;
-    padding-bottom: 5%;
-    padding-left: 130px;
-    padding-right: 130px;
+    padding: 10px 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +27,7 @@ nav a{
 /* -------------- video section -------------- */
 
 .video-section{
-    padding: 40px 130px;
+    padding: 40px 10%;
     color: #d4d4dc;
 }
 
@@ -47,6 +44,6 @@ nav a{
 /* ------------------- Comments ---------------------- */
 
 #comments{
-    padding: 80px 130px;
+    padding: 80px 10%;
     color: #d4d4dc;
 }
