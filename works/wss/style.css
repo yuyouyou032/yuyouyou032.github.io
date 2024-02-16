@@ -24,6 +24,10 @@ nav a{
     text-decoration: none;
 }
 
+.description-short{
+    color: #4cb69f;
+}
+
 /* --------------Slides and brief description -------------- */
 
 #slides{
@@ -82,8 +86,5 @@ nav a{
     }
     .slides-col-2{
         flex-basis: 100%;
-    }
-    .slides-col-2 embed{
-        /* height: 100vh; */
     }
 }
