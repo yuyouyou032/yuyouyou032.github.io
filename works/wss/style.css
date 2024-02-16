@@ -32,8 +32,7 @@ nav a{
 }
 
 .row{
-    /* padding-left: 60px;
-    padding-right: 60px; */
+    padding-top: 40px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -45,14 +44,16 @@ nav a{
 
 .slides-col-2{
     flex-basis: 60%;
-    padding: 5% 0;
+    /* padding: 5% 0; */
 }
 
 .slides-col-2 embed{
-    height: 90%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
 }
 
-.slides-col-1 p{
+.description{
     text-align: justify;
     text-justify: inter-word;
 }
@@ -60,6 +61,29 @@ nav a{
 /* ------------------- Comments ---------------------- */
 
 #comments{
-    padding: 80px 130px;
+    padding: 80px 10%;
     color: #d4d4dc;
+}
+
+/* ------------------- Responsiveness ----------------- */
+@media only screen and (max-width: 750px){
+    .header-text{
+        margin-top: 50%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+    nav div p{
+        font-size: 14px;
+    }
+    .slides-col-1{
+        flex-basis: 100%;
+    }
+    .slides-col-2{
+        flex-basis: 100%;
+    }
+    .slides-col-2 embed{
+        /* height: 100vh; */
+    }
 }
