@@ -23,3 +23,44 @@ nav a{
     color: #4cb69f;
     text-decoration: none;
 }
+
+/* ------------ writing section */
+
+.container{
+    padding: 40px 10%;
+    color: #d4d4dc;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col-1{
+    flex-basis: 50%;
+}
+.col-1 i{
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    color: #4cb69f;
+}
+
+.col-2{
+    flex-basis: 30%;
+}
+.col-2 img{
+    height: 100%;
+    width: 100%;
+}
+
+.description{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.description-short{
+    color: #4cb69f;
+}
