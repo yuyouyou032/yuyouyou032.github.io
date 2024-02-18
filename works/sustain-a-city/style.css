@@ -41,6 +41,11 @@ nav a{
     color: #d4d4dc;
 }
 
+.container p a{
+    text-decoration: none;
+    color: #4cb69f;
+}
+
 .row{
     padding-top: 40px;
     display: flex;
@@ -73,6 +78,8 @@ nav a{
     height: 60vh;
     aspect-ratio: 16/9 auto;
 }
+
+
 
 /* ------------------- Responsiveness ----------------- */
 @media only screen and (max-width: 750px){
