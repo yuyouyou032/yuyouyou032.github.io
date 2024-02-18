@@ -27,10 +27,21 @@ nav a{
 .container{
     padding: 40px 10%;
 }
+
+.description-short{
+    color: #4cb69f;
+}
+
 .description{
     text-align: justify;
     text-justify: inter-word;
+}
+.description-post{
+    text-align: justify;
+    text-justify: inter-word;
     padding: 5% 5%;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 
